@@ -884,3 +884,18 @@ header .logo-section {
   font-size: 0.875rem;
   color: #4b5563;
 }
+
+
+@media (max-width: 500px) {
+  .header .logo-section .logo {
+    height: 26px;
+  }
+  .download-card .btn-large {
+    padding: 1.25rem 1rem;
+  }
+.download-card .btn-large .icon {
+    width: 50px;
+    height: 50px;
+}
+  
+}
